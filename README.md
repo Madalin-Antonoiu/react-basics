@@ -1,1 +1,1 @@
-https://reactjs.org/docs/state-and-lifecycle.html
+https://www.cloudsavvyit.com/9020/what-are-presentational-and-container-components-in-react/
