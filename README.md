@@ -1,1 +1,1 @@
-https://reactjs.org/docs/lifting-state-up.html
+https://reactjs.org/docs/state-and-lifecycle.html
