@@ -1,9 +1,8 @@
 import React from "react"
-import FilterableProductTable from "./Table/FilterableProductTable.js"
-import {PRODUCTS} from "../PRODUCTS.js"
+import Parent from "./Parent.js"
 
 const App = () => {
-  return <FilterableProductTable products={PRODUCTS} />
+  return <Parent />
 }
 
 export default App;
