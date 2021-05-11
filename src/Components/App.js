@@ -1,8 +1,14 @@
 import React from "react"
-import Clock from "./Clock.js"
+import Presentational from "./Presentational.js"
+import Stateful from "./Stateful.js"
 
 const App = () => {
-  return <Clock />
+  return <>
+    <Presentational title="Hello World" />
+    <Stateful />
+  </>
+
+
 }
 
 export default App;

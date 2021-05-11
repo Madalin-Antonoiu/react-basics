@@ -1,6 +1,6 @@
 import React from "react"
 
-class Clock extends React.Component {
+class Stateful extends React.Component {
     state = {date: new Date()};
 
     componentDidMount() {
@@ -9,21 +9,24 @@ class Clock extends React.Component {
             1000
         );
     }
+
     componentWillUnmount() {
         clearInterval(this.timerID);
     }
+
     tick() {
-        this.setState({date: new Date()});
+        this.setState({
+            date: new Date()
+        });
     }
 
     render() {
         return (
             <div>
-                <h1>Hello, world!</h1>
-                <h2>It is {this.state.date.toLocaleTimeString()}</h2>
+                <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
             </div>
         );
     }
 }
 
-export default Clock
+export default Stateful
