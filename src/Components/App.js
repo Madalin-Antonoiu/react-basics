@@ -1,8 +1,8 @@
 import React from "react"
-import Calculator from "./Calculator.js"
+import Parent from "./Parent.js"
 
 const App = () => {
-  return <Calculator />
+  return <Parent />
 }
 
 export default App;
