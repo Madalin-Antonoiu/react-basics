@@ -1,8 +1,8 @@
 import React from "react"
-import Parent from "./Parent.js"
+import Clock from "./Clock.js"
 
 const App = () => {
-  return <Parent />
+  return <Clock />
 }
 
 export default App;
