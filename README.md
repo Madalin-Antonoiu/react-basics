@@ -1,1 +1,1 @@
-https://reactjs.org/docs/lifting-state-up.html
+https://www.cloudsavvyit.com/9020/what-are-presentational-and-container-components-in-react/
